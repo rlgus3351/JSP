@@ -1,0 +1,12 @@
+@charset "EUC-KR";
+
+h1{
+	color : blue;
+	
+}
+
+div {
+	position : relative;
+	background-color : black;
+	margin : 100px 0 100px 0;
+}

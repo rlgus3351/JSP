@@ -1,0 +1,22 @@
+@charset "EUC-KR";
+
+h1{
+	color : blue;
+	
+}
+
+.top-container {
+    background-color: #D6EFED;
+    font-weight: normal;
+    position : relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    
+}
+
+.bottom-container {
+    background-color: #D6EFED;
+    padding : 50px 0 20px;
+}

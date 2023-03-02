@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--
+		HTML에서 Servlet으로 데이터 전송하기 
+		: form 태그를 사용해서 전송!
+	-->
+
+	<form action="">
+		DATA : <input type="text">
+		 <br> 
+		 <input type="submit">
+
+
+	</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

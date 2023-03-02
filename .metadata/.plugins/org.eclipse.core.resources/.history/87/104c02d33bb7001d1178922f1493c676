@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--
+		HTML에서 Servlet으로 데이터 전송하기 
+		: form 태그를 사용해서 전송!
+		
+		데이터 전송 3가지 조건
+		1) 어디로 보낼 건지.. : form태그 action 기술
+		2) 무엇을 보낼 건지.. : 
+		3) 어떤 시점에 보낼 건지
+		
+	-->
+
+	<form action="DataSend">
+		DATA : <input type="text" >
+		 <br> 
+		 <input type="submit">
+	</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
