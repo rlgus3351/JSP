@@ -11,7 +11,7 @@
 	<h1>HELLO!</h1>
 	<%-- 스크립트릿 주석
 		JSP 구성요소
-		1) 지시자(Directvie) : <%@%>
+		1) 지시자(Directive) : <%@%>
 		2) 선언문(DEclaration) : <%!%>
 		3) 스크립트릿(Scriptlet) : <%%>
 		>> jsp 내부에 java 코드를 삽입하고 싶을 때 사용!!

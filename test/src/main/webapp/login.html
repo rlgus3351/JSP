@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="login">
+		<table border="0" width = "400px" >
+        <!-- 4행 2열 -->
+        	<tr>
+	            <th colspan="2" bgcolor="gray" align="left" height = "50px">Step1: 아이디/ 비번 입력</th>
+        	</tr>
+        	<tr>
+            	<td align="right" bgcolor="whitesmoke" height="35px">아이디</td>
+            	<td bgcolor="whitesmoke"><input type ="text" name = "id"> </td>
+	        </tr>
+        	<tr>
+            	<td align="right" bgcolor="whitesmoke" height="35px">비밀번호</td>
+	            <td bgcolor="whitesmoke"><input type = "password" name ="pw"></td>
+        	</tr>
+        	<tr>
+            	<td align="right" bgcolor="whitesmoke" height="35px">비밀번호확인</td>
+            	<td bgcolor="whitesmoke"><input type = "password" name ="pwCheck"></td>
+        	</tr>
+    	</table>
+    	<table border="0" width = "400px" >
+        	<tr>
+	            <th colspan="2" bgcolor="gray" align="left" height = "50px">Step2: 개인정보</th>
+        	</tr>
+        	<tr>
+	            <td align="right" bgcolor="whitesmoke" height="35px">성별</td>
+            	<td bgcolor="whitesmoke">
+	                <input  type="radio" name="gender" value="male">남
+                	<input type="radio" name="gender" value="female">여
+            	</td>
+       	 </tr>
+    	</table>
+    	<input type ="submit" value = "제출">
+	</form>
+</body>
+</html>
