@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 1) mapper 태그 안쪽에 SQL 쿼리문들을 작성 -->
+<!-- namespace : 식별자(mapper 파일이 여러개였을 때 중복되지 않게만 작성) -->
+<mapper namespace="com.smhrd.model.MemberDAO">
+	
+	<insert id="join" parameterType="com.smhrd.model.MemberDTO">
+		insert into web_member
+		values(#{email},#{pw},#{tel},#{address}) 
+	</insert>
+	
+</mapper>
