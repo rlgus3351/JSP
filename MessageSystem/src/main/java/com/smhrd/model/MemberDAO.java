@@ -1,6 +1,7 @@
 package com.smhrd.model;
 
-import org.apache.ibatis.annotations.Select;
+import java.util.List;
+
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 
@@ -26,12 +27,29 @@ public class MemberDAO {
 			// session.insert("mapper파일식별자.sql구문식별자", mapper파일로 넘기고 싶은 매개변수)
 			// session.update
 			// session.delete
+			// selectAll
+			// selecton
 			cnt = session.insert("join", dto);
 		} finally {
 			// 3. sqlsession 반납
 			session.close();
 		}
 		return cnt;
+	}
+	
+	public MemberDTO login(MemberDTO dto) {
+		MemberDTO user = new MemberDTO();
+		// 1. SqlSession 빌려오기
+		SqlSession session = factory.openSession(true);
+		try {
+			// 2. session을 활용해서 구문 실행(로그인 기능)
+			user= session.selectOne("login", dto);
+		} finally {
+			// 3. session 결과값 반납
+			session.close();
+		}
+		// 4. 결과값 반환
+		return user;
 	}
 
 }

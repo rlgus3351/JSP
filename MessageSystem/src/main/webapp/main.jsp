@@ -25,7 +25,7 @@
 					<nav id="menu">	
 						<ul class="links">
 							<li><h5>로그인</h5></li>
-								<form>
+								<form action="loginService" method = "post">
 									<li><input type="text"  placeholder="Email을 입력하세요" name = "email"></li>
 									<li><input type="password"  placeholder="PW를 입력하세요" name = "pw"></li>
 									<li><input type="submit" value="LogIn" class="button fit"></li>
@@ -46,7 +46,7 @@
 					<section id="banner" class="major">
 						<div class="inner">
 							<header class="major">
-										<h1>로그인 한 세션아이디를 출력해주세요</h1>
+										<h1>${user.email}님 환영합니다.</h1>
 								<!-- 로그인 후 로그인 한 사용자의 세션아이디로 바꾸시오.
 									 ex)smart님 환영합니다 -->
 							</header>
