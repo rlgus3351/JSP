@@ -1,23 +1,7 @@
 INDEX VERSION 1.131
-C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2677973490.index
-\JSP01\src\main\java
-C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1326442128.index
-\Servlet\src\main\java
-C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1938386554.index
-\kakaotest\src\main\java
-C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2330667683.index
-\MavenSample\src\main\java
-C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3281373496.index
-\CookieSession\src\main\java
 C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\253030176.index
 \MavenSample2\src\main\java
-C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\142685618.index
-\JSP01\src\main\java
-C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1268920629.index
-\JSP03\src\main\java
+C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3281373496.index
+\CookieSession\src\main\java
 C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\479508142.index
 \MessageSystem\src\main\java
-C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3422878326.index
-\JSP02\src\main\java
-C:\Users\smhrd\Desktop\WebStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3320481498.index
-\JSP3\src\main\java
