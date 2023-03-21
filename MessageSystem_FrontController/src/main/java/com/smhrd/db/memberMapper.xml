@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 1) mapper 태그 안쪽에 SQL 쿼리문들을 작성 -->
+<!-- namespace : 식별자(mapper 파일이 여러개였을 때 중복되지 않게만 작성) -->
+<mapper namespace="com.smhrd.model.MemberDAO">
+	<!-- 회원 가입 기능 -->
+	<insert id="join" parameterType="com.smhrd.model.MemberDTO">
+		insert into web_member
+		values(#{email},#{pw},#{tel},#{address})
+	</insert>
+	
+	<!--
+		id : 쿼리문을 구분 할 수 있는 식별자(메소드명과 동일하게 사용)
+		parameterType: DAO에서 부터 받아오는 매개변수의 자료형 지정
+						(풀네임 작성 ->자동완성쓰자)
+		resultType : SQL쿠문을 실행하고 나서 결과값을 java내부에서 어떤 자료형으로 받아올건지
+					 작성해주기(풀네임을 작성해야한다.) **SELECT문 사용시 꼭 써주기.
+	 -->
+	 <!-- 로그인 기능 -->
+	<select id="login" parameterType="com.smhrd.model.MemberDTO"
+		resultType="com.smhrd.model.MemberDTO">
+		select *
+		from web_member
+		where email = #{email} and pw = #{pw}
+	</select>
+	
+	<!-- 회원 정보 수정 -->
+	<update id="update" parameterType="com.smhrd.model.MemberDTO">
+      update web_member
+         set pw = #{pw},
+             tel = #{tel},
+             address = #{address}
+       where email = #{email}
+  	</update>
+  	
+  	<!-- 전체 회원 조회 -->
+  	<select id="selectAll" 
+		resultType="com.smhrd.model.MemberDTO">
+		select *
+		from web_member
+		where email != 'admin'
+	</select>
+</mapper>
