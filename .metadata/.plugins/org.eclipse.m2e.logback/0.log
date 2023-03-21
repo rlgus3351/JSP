@@ -4099,3 +4099,4 @@ Caused by: java.lang.Exception: File not found: C:\Users\smhrd\Desktop\WebStudy\
 2023-03-21 12:24:20,322 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-03-21 12:24:20,323 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\smhrd\Desktop\WebStudy\MessageSystem_FrontController\src\main\resources
 2023-03-21 12:24:20,324 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-21 12:24:20,325 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\smhrd\Desktop\WebStudy\MessageSystem_FrontController\src\test\resources
