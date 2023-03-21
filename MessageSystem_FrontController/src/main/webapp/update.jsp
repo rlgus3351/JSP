@@ -25,7 +25,7 @@
 								2. input data : 넘어가야 하는 3개의 정보 (pw, tel,address) name 지정
 								
 								 -->
-								<form action="UpdateService" method = "post">
+								<form action="Update.do" method = "post">
 									<li>${user.email}</li>
 									<li><input type="password" name ="password" placeholder="PW를 입력하세요" style="width: 500px; margin: 0 auto;"></li>
 									<li><input type="text"  name="tel" placeholder="전화번호를 입력하세요" style="width: 500px; margin: 0 auto;"></li>

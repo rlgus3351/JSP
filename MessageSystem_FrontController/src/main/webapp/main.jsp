@@ -25,13 +25,13 @@
 		<c:if test="${!empty user}">
 			<!-- 로그인된 회원이 관리자인지 일반 회원인지에 따라 메뉴 수정하기 -->
 			<c:if test="${user.email eq 'admin'}">
-				<a href="SelectAllProgram">회원정보관리</a>
+				<a href="SelectAll.do">회원정보관리</a>
 			</c:if>
 			<c:if test="${user.email ne 'admin'}">
 				<a href="update.jsp">개인정보수정</a>
 			</c:if>
 			<!-- 로그인 후 Logout.jsp로 이동할 수 있는'로그아웃'링크와 '개인정보수정'링크를 출력하시오. -->
-			<a href="LogoutService">로그아웃</a>
+			<a href="Logout.do">로그아웃</a>
 			<!-- 로그인 후 Logout.jsp로 이동할 수 있는'로그아웃'링크와 '개인정보수정'링크를 출력하시오. -->
 		</c:if> </nav> </header>
 
@@ -39,7 +39,7 @@
 		<nav id="menu">
 		<ul class="links">
 			<li><h5>로그인</h5></li>
-			<form action="loginService" method="post">
+			<form action="Login.do" method="post">
 				<li><input type="text" placeholder="Email을 입력하세요" name="email"></li>
 				<li><input type="password" placeholder="PW를 입력하세요" name="pw"></li>
 				<li><input type="submit" value="LogIn" class="button fit"></li>
@@ -47,7 +47,7 @@
 		</ul>
 		<ul class="actions vertical">
 			<li><h5>회원가입</h5></li>
-			<form action="JoinService" method="post">
+			<form action="Join.do" method="post">
 				<li><input type="text" name="email" placeholder="Email을 입력하세요"></li>
 				<li><input type="password" name="pw" placeholder="PW를 입력하세요"></li>
 				<li><input type="text" name="tel" placeholder="전화번호를 입력하세요"></li>

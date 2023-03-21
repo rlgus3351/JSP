@@ -15,13 +15,10 @@ import javax.servlet.http.HttpSession;
 import com.smhrd.model.MemberDAO;
 import com.smhrd.model.MemberDTO;
 
-@WebServlet("/SelectAllProgram")
-public class SelectAllProgram extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+public class SelectAllProgram implements Command {
 
-	protected void service(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-		// 1. DAO 생성
+	@Override
+	public String execute(HttpServletRequest request, HttpServletResponse response) {
 		MemberDAO dao = new MemberDAO();		
 		// 2. DAO 실행할 메소드 호출! -> selectAll()
 		ArrayList<MemberDTO> list = dao.selectAll();
@@ -32,8 +29,9 @@ public class SelectAllProgram extends HttpServlet {
 		if (list != null) {
 			request.setAttribute("list", list);
 		} 
-		RequestDispatcher rd= request.getRequestDispatcher("select.jsp");
-		rd.forward(request, response);
+//		RequestDispatcher rd= request.getRequestDispatcher("select.jsp");
+//		rd.forward(request, response);
+		return "select.jsp";
 	}
 
 }
