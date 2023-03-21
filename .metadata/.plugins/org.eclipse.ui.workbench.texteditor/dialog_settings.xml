@@ -6,16 +6,20 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Join"/>
+		<item key="selection" value="nav"/>
 		<list key="findhistory">
-			<item value="join"/>
+			<item value="nav"/>
+			<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;"/>
+			<item value="UTF-9"/>
 			<item value="EUC-KR"/>
+			<item value="join"/>
 			<item value="package Cookie;"/>
 			<item value="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;"/>
 			<item value="package Servlet01;"/>
 		</list>
 		<list key="replacehistory">
 			<item value="UTF-8"/>
+			<item value="UTF-9"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

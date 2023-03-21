@@ -11,18 +11,10 @@
 		</list>
 	</section>
 	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.egit.ui.internal.clone.GitCloneWizard"/>
 		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.FileSystem"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
-			<item value="org.eclipse.jst.ejb.ui"/>
-			<item value="org.eclipse.buildship.ui.importwizards"/>
-			<item value="org.eclipse.equinox.p2.category"/>
-			<item value="org.eclipse.jst.j2ee.internal"/>
-			<item value="org.eclipse.pde.ui.PluginDevelopment"/>
-			<item value="org.eclipse.debug.ui"/>
-			<item value="org.eclipse.team.ui.importWizards"/>
-			<item value="org.eclipse.wst.web.ui"/>
+			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
 		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
